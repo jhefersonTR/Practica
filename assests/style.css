@@ -1,0 +1,90 @@
+
+.bodytotal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding:40px;
+    
+}
+.cielo{
+    width: 80%;
+    height:15%;
+    background-color:'red';
+  
+}
+.imagenes{
+    width: 100%;
+    height: 100%;
+}
+.ajustador{
+ height: 15vh; 
+ object-fit: cover;
+ transition: 0.5s;
+ border: none;
+}
+
+.ajustador:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ladouno{
+    width: 50%;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    border-right: 10px solid rgb(50, 198, 235);
+}
+.ladodos{
+    width: 50%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 10px solid rgb(206, 216, 61);
+}
+
+.dataobtenida{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height:10vh;
+    border: 5px solid rgb(50, 198, 235);
+    font-weight: bold;
+    border-radius:10px;
+    font-size:30px;
+    margin:2%
+}
+.color{
+    border: none;
+    padding:10px;
+    border-radius: 10px;
+    background-color:rgb(206, 216, 61) !important;
+    transition:0.5s
+}
+.color:hover{
+    transform:scale(1.1)
+}
+p{
+    margin: 0 !important;
+    padding: 0;
+    font-weight: bold;
+    color:rgb(65, 64, 64);
+    font-size:18px
+}
+h5{
+    border: 2px solid rgb(37, 30, 30);
+    background-color:rgba(241, 241, 241, 0.603);
+    border-radius:5px;
+}
+.quees{
+    align-self: flex-start;
+    padding-left: 20px;
+    color: rgb(224, 163, 50);
+}
