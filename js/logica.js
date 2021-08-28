@@ -103,7 +103,7 @@ function Encontrardata(){
             var elements =document.getElementById('#encontrado');
             elements.innerText='Si puedes JUGAR';
         }
-        if(cielo=="Soleado" && humedad=="Normal" ){
+        if(humedad=="Normal" ){
             var elements =document.getElementById('#encontrado');
             elements.innerText='Si puedes JUGAR';
             
